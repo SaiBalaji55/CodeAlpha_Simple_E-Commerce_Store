@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CodeAlpha Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+
+<header class="navbar">
+  <div class="nav-left">
+    <h1>🛒 CodeAlpha Store</h1>
+  </div>
+
+  <div class="nav-right">
+    <span id="userInfo"></span>
+
+    <a href="login.html" id="loginBtn" class="nav-link">Login</a>
+    <a href="register.html" id="registerBtn" class="nav-link">Register</a>
+    <a href="cart.html" class="cart-btn">🛍 Cart</a>
+
+    <button id="logoutBtn" onclick="logout()" class="logout-btn" style="display:none">
+      Sign Out
+    </button>
+
+    <!-- ADMIN BUTTON -->
+    <button
+      id="addProductBtn"
+      class="admin-add-btn"
+      onclick="toggleAdminPanel()"
+      style="display:none"
+    >
+      ➕ Add Product
+    </button>
+  </div>
+</header>
+
+
+<section id="adminSection" class="admin-panel" style="display:none">
+  <h3>Add New Product</h3>
+
+  <input type="text" id="pname" placeholder="Product Name" />
+  <input type="number" id="pprice" placeholder="Price" />
+  <input type="text" id="pimage" placeholder="Image URL" />
+  <textarea id="pdesc" placeholder="Description"></textarea>
+
+  <button class="admin-submit-btn" onclick="addProduct()">
+    Add Product
+  </button>
+</section>
+
+
+<main class="products" id="productList"></main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -26,7 +26,7 @@ A full-stack **MERN e-commerce web application** that allows users to browse pro
 ### Frontend
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript 
 - LocalStorage (cart & session)
 
 ### Backend
@@ -38,6 +38,7 @@ A full-stack **MERN e-commerce web application** that allows users to browse pro
 ---
 
 ## Project Structure
+```
 
 CodeAlpha_SIMPLE E-COMMERCE STORE
 
@@ -87,6 +88,8 @@ CodeAlpha_SIMPLE E-COMMERCE STORE
 
 └── README.md
 
+```
+
 
 
 
@@ -107,7 +110,7 @@ CodeAlpha_SIMPLE E-COMMERCE STORE
 
 ###  Clone the repository
 ```bash
-git clone https://github.com/your-username/CodeAlpha-Simple-Ecommerce-Store.git
+git clone https://github.com/SaiBalaji55/CodeAlpha_Simple_E-Commerce_Store
 ```
 
 ## Install backend dependencies
